@@ -3,6 +3,9 @@
 ### DO NOT ASK FOR HELP IN THE OFFICIAL CATS DISCORD SERVER, PLEASE READ BELOW!
 #### PLEASE DO NOT ASK FOR HELP FOR THIS VERSION OF CATS IN THE OFFICIAL CATS DISCORD. THIS CATS IS NOT THE OFFICIAL VERSION SO SUPPORT MAY NOT BE GIVEN IN THEIR DISCORD SERVER. IF YOU HAVE A BUG OR NEED HELP PLEASE START AN [ISSUE](https://github.com/Yusarina/Cats-Blender-Plugin-Unofficial-/issues) OR JOIN MY OWN [DISCORD](https://discord.catsblenderplugin.xyz) SERVER.
 
+### Support us:
+If you like what we do and want to help support the development of cats you can do it on our pally.gg [here](https://pally.gg/p/teamneoneko) all money is split automatically between all developers and any support is appreciated.
+
 #### Struggling to find the correct version of Cats for your Blender version? then use our website to find the correct version: https://catsblenderplugin.xyz/
 #### FOR THE LOVE OF GOD FOLLOW THE INSTALL INSTRUCTIONS WE WILL NO LONGER CONSTANTLY ANSWER THE SAME QUESTIONS/ ISSUES IF YOUR NOT BOTHERING TO READ THEM: https://catsblenderplugin.xyz/wiki.html?version=current#how-do-i-install-cats-blender-plugin
 
