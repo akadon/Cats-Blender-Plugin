@@ -14,7 +14,7 @@ The non official version of Cats Blender Plugin which is maintained by Tean Neon
 With Cats it takes only a few minutes to upload your model into VRChat.
 All the hours long processes of fixing your models are compressed into a few functions!
 
-- Join the unoffical Cats Discord!: https://discord.catsblenderplugin.xyz
+- Join the unoffical Cats Discord!: https://discord.gg/Hx3kb8MVJw
 
 You can find releases [here](https://github.com/Yusarina/Cats-Blender-Plugin-Unofficial-/releases), ensure you are using the one for your blender version!  
 
