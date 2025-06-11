@@ -7,7 +7,7 @@
 If you like what we do and want to help support the development of cats you can do it on our pally.gg [here](https://pally.gg/p/teamneoneko) all money is split automatically between all developers and any support is appreciated.
 
 #### Struggling to find the correct version of Cats for your Blender version? then use our website to find the correct version: https://catsblenderplugin.xyz/
-#### FOR THE LOVE OF GOD FOLLOW THE INSTALL INSTRUCTIONS WE WILL NO LONGER CONSTANTLY ANSWER THE SAME QUESTIONS/ ISSUES IF YOUR NOT BOTHERING TO READ THEM: https://catsblenderplugin.xyz/wiki.html?version=current#how-do-i-install-cats-blender-plugin
+#### FOR THE LOVE OF GOD FOLLOW THE INSTALL INSTRUCTIONS WE WILL NO LONGER CONSTANTLY ANSWER THE SAME QUESTIONS/ ISSUES IF YOUR NOT BOTHERING TO READ THEM: https://catsblenderplugin.xyz/legacywiki.html?version=current#how-do-i-install-cats-blender-plugin
 
 The non official version of Cats Blender Plugin which is maintained by Tean Neoneko, Cats is an tool designed to shorten steps needed to import and optimize models into VRChat. Compatible models are: MMD, XNALara, Mixamo, Source Engine, Unreal Engine, DAZ/Poser, Blender Rigify, Sims 2, Motion Builder, 3DS Max and potentially more
 
@@ -24,11 +24,11 @@ You can find releases [here](https://github.com/Yusarina/Cats-Blender-Plugin-Uno
 
 ## Blender version support policies.
 
-Please [Click Here](https://catsblenderplugin.xyz/wiki.html?version=current#what-versions-of-blender-are-currently-supported) to view which versions of blender we support.
+Please [Click Here](https://catsblenderplugin.xyz/legacywiki.html?version=current#what-versions-of-blender-are-currently-supported) to view which versions of blender we support.
 
 ## Features
 
-Please [Click Here](https://catsblenderplugin.xyz/wiki.html?version=current#what-features-are-available-in-the-quick-access-panel) to view the features of cats.
+Please [Click Here](https://catsblenderplugin.xyz/legacywiki.html?version=current#what-features-are-available-in-the-quick-access-panel) to view the features of cats.
 
 
 ## Requirements
@@ -48,11 +48,11 @@ Some features of Cat's need additional plugins to work, you can find them here:
 
 ## Installation
 
-- Please [Click Here](https://catsblenderplugin.xyz/wiki.html?version=current#how-do-i-install-cats-blender-plugin) to see how to install for Blender 4.2+
+- Please [Click Here](https://catsblenderplugin.xyz/legacywiki.html?version=current#how-do-i-install-cats-blender-plugin) to see how to install for Blender 4.2+
 
 ## Help
 
-If you need help with Cat's you can check the wiki [here](https://catsblenderplugin.xyz/wiki.html#quick-access).
+If you need help with Cat's you can check the wiki [here](https://catsblenderplugin.xyz/legacywiki.html#quick-access).
 You can also see the the following video tutorials as well (Please note these videos may become outdated over time).
 
 [![VRCHAT Avatar Setup - Blender CATS Plugin](https://i.ytimg.com/vi/2fJMaxbBewg/0.jpg)](https://www.youtube.com/watch?v=2fJMaxbBewg)
