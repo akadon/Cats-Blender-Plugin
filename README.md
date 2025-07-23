@@ -19,8 +19,10 @@ All the hours long processes of fixing your models are compressed into a few fun
 You can find releases [here](https://github.com/Yusarina/Cats-Blender-Plugin-Unofficial-/releases), ensure you are using the one for your blender version!  
 
 - You can find the development version for Blender 4.2 [here](https://github.com/Yusarina/Cats-Blender-Plugin-Unofficial-/tree/blender-42-dev).
-- You can find the development version for Blender 4.3 [here](https://github.com/Yusarina/Cats-Blender-Plugin-Unofficial-/tree/blender-43-dev).
-- You can find the development version for Blender 4.4 [here](https://github.com/Yusarina/Cats-Blender-Plugin-Unofficial-/tree/blender-44-dev).  
+- You can find the development version for Blender 4.4 [here](https://github.com/Yusarina/Cats-Blender-Plugin-Unofficial-/tree/blender-44-dev).
+- You can find the development version for Blender 4.5 [here](https://github.com/Yusarina/Cats-Blender-Plugin-Unofficial-/tree/blender-45-dev).
+
+Want to help translate Cats, you can here: [](https://github.com/teamneoneko/Cats-Blender-Plugin-Unofficial-translations)
 
 ## Blender version support policies.
 
