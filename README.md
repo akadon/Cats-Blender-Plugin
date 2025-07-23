@@ -22,7 +22,7 @@ You can find releases [here](https://github.com/Yusarina/Cats-Blender-Plugin-Uno
 - You can find the development version for Blender 4.4 [here](https://github.com/Yusarina/Cats-Blender-Plugin-Unofficial-/tree/blender-44-dev).
 - You can find the development version for Blender 4.5 [here](https://github.com/Yusarina/Cats-Blender-Plugin-Unofficial-/tree/blender-45-dev).
 
-Want to help translate Cats, you can here: [](https://github.com/teamneoneko/Cats-Blender-Plugin-Unofficial-translations)
+Want to help translate Cats, you can [here](https://github.com/teamneoneko/Cats-Blender-Plugin-Unofficial-translations)
 
 ## Blender version support policies.
 
