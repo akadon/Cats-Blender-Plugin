@@ -36,7 +36,7 @@ Please [Click Here](https://catsblenderplugin.xyz/legacywiki.html?version=curren
 ## Requirements
 
 - Blender 3.6 or above (run as administrator is recommended).
-   - Blender 4.2 is Recommended as this is the latest Stabel release.
+   - Blender 4.5 is Recommended as this is the latest Stabel release.
 - Anything older then 3.6 is not supported and no longer works.
 - If you have custom Python installed which Blender might use, you need to have Numpy installed
 - Note to Windows Store users: Though Cats seems to work on Windows Store these days no support will be given if there are any issues as the Unofficial cats does not support Windows store due to issues Windows Store versions of Blender have given in the past.
