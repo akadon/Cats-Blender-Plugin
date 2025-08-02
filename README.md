@@ -3,6 +3,10 @@
 ### DO NOT ASK FOR HELP IN THE OFFICIAL CATS DISCORD SERVER, PLEASE READ BELOW!
 #### PLEASE DO NOT ASK FOR HELP FOR THIS VERSION OF CATS IN THE OFFICIAL CATS DISCORD. THIS CATS IS NOT THE OFFICIAL VERSION SO SUPPORT MAY NOT BE GIVEN IN THEIR DISCORD SERVER. IF YOU HAVE A BUG OR NEED HELP PLEASE START AN [ISSUE](https://github.com/Yusarina/Cats-Blender-Plugin-Unofficial-/issues) OR JOIN MY OWN [DISCORD](https://discord.catsblenderplugin.xyz) SERVER.
 
+### CATS IS NOW APPROACHING END OF LIFE
+Cats Blender Plugin has been around for several years, but it has become increasingly difficult to maintain due to its messy codebase. Neoneko has decided to develop a new plugin to replace Cats, featuring all of Cats existing functionality (with MMD features and VRM conversion coming soon) and much more. The new plugin is built to be modern, faster, and simply better than Cats. Check it out [here](https://github.com/teamneoneko/Avatar-Toolkit)
+Cats for Blender 4.5 will be the last Blender version that Cats supports. Starting May 1, 2026, we will no longer provide support for Cats Blender Plugin. This timeline gives us plenty of time to complete the remaining features and provides users with sufficient time to migrate to the new solution.
+
 ### Support us:
 If you like what we do and want to help support the development of cats you can do it on our pally.gg [here](https://pally.gg/p/teamneoneko) all money is split automatically between all developers and any support is appreciated.
 
