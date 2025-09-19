@@ -61,7 +61,7 @@ Some features of Cats need additional plugins to work. You can find them here:
 ## Help
 
 If you need help with Cats you can check the Wiki [here](https://cats.neoneko.xyz/legacywiki.html#quick-access).
-You can also see the the following video tutorials as well (Please note these videos may become outdated over time).
+You can also see the following video tutorials as well (Please note these videos may become outdated over time).
 
 [![VRCHAT Avatar Setup - Blender CATS Plugin](https://i.ytimg.com/vi/2fJMaxbBewg/0.jpg)](https://www.youtube.com/watch?v=2fJMaxbBewg)
 
@@ -83,7 +83,7 @@ Maintained by Yusarina.
 
 Cats Blender Plugin was original developed by absolute quantum, then maintained by the community. [click here](https://github.com/absolute-quantum/cats-blender-plugin) to see the original project.
 
-### Cats Uses the Following Plugins to Enhance it's features:
+### Cats uses the following plugins to enhance its features:
 
  - [MMD Tools](https://github.com/UuuNyaa/blender_mmd_tools)
  - [Immersive Scaler](https://github.com/triazo/immersive_scaler)
