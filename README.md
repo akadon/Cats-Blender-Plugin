@@ -10,8 +10,6 @@ The unofficial version of Cats Blender Plugin, maintained by Team Neoneko. Cats 
 With Cats it takes only a few minutes to upload your model into VRChat.
 All the hours-long processes of fixing your models are compressed into a few functions!
 
-- Join the unoffical Cats Discord!: https://discord.gg/Hx3kb8MVJw
-
 - Join the unofficial Cats Discord: https://discord.neoneko.xyz/
 - Read the Wiki: https://github.com/teamneoneko/Cats-Blender-Plugin-Unofficial-/wiki
 
