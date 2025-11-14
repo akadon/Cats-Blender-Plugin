@@ -1,55 +1,86 @@
-# Cats Blender Plugin Unofficial.
+# Cats Blender Plugin Unofficial
 
 ### DO NOT ASK FOR HELP IN THE OFFICIAL CATS DISCORD SERVER, PLEASE READ BELOW!
-#### PLEASE DO NOT ASK FOR HELP FOR THIS VERSION OF CATS IN THE OFFICIAL CATS DISCORD. THIS CATS IS NOT THE OFFICIAL VERSION SO SUPPORT MAY NOT BE GIVEN IN THEIR DISCORD SERVER. IF YOU HAVE A BUG OR NEED HELP PLEASE START AN [ISSUE](https://github.com/Yusarina/Cats-Blender-Plugin-Unofficial-/issues) OR JOIN MY OWN [DISCORD](https://discord.catsblenderplugin.xyz) SERVER.
+#### PLEASE DO NOT ASK FOR HELP FOR THIS VERSION OF CATS IN THE OFFICIAL CATS DISCORD. THIS CATS IS NOT THE OFFICIAL VERSION SO SUPPORT MAY NOT BE GIVEN IN THEIR DISCORD SERVER. IF YOU HAVE A BUG OR NEED HELP PLEASE START AN [ISSUE](https://github.com/teamneoneko/Cats-Blender-Plugin-Unofficial-/issues) OR JOIN OUR [DISCORD](https://discord.catsblenderplugin.xyz) SERVER.
 
-#### Struggling to find the correct version of Cats for your Blender version? then use our website to find the correct version: https://catsblenderplugin.xyz/
+#### Struggling to find the correct version of Cats for your Blender version? Visit our website: https://catsblenderplugin.xyz/
 
-The non official version of Cats Blender Plugin which is maintained by Tean Neoneko, Cats is an tool designed to shorten steps needed to import and optimize models into VRChat. Compatible models are: MMD, XNALara, Mixamo, Source Engine, Unreal Engine, DAZ/Poser, Blender Rigify, Sims 2, Motion Builder, 3DS Max and potentially more
+The unofficial version of Cats Blender Plugin, maintained by Team Neoneko. Cats is a tool designed to shorten steps needed to import and optimize models into VRChat. Compatible models are: MMD, XNALara, Mixamo, Source Engine, Unreal Engine, DAZ/Poser, Blender Rigify, Sims 2, Motion Builder, 3DS Max and potentially more.
 
 With Cats it takes only a few minutes to upload your model into VRChat.
 All the hours long processes of fixing your models are compressed into a few functions!
 
-- Join the unoffical Cats Discord!: https://discord.catsblenderplugin.xyz
+- Join the unofficial Cats Discord: https://discord.neoneko.xyz/
+- Read the Wiki: https://github.com/teamneoneko/Cats-Blender-Plugin-Unofficial-/wiki
 
-You can find releases [here](https://github.com/Yusarina/Cats-Blender-Plugin-Unofficial-/releases), ensure you are using the one for your blender version!  
+You can find releases [here](https://github.com/teamneoneko/Cats-Blender-Plugin-Unofficial-/releases), ensure you are using the one for your Blender version!
 
-- You can find the development version for Blender 4.2 [here](https://github.com/Yusarina/Cats-Blender-Plugin-Unofficial-/tree/blender-42-dev).
-- You can find the development version for Blender 4.3 [here](https://github.com/Yusarina/Cats-Blender-Plugin-Unofficial-/tree/blender-43-dev).
-- You can find the development version for Blender 4.4 [here](https://github.com/Yusarina/Cats-Blender-Plugin-Unofficial-/tree/blender-44-dev).  
+- You can find the development version for Blender 5.0 [here](https://github.com/teamneoneko/Cats-Blender-Plugin-Unofficial-/tree/blender-5x-dev).  
 
-## Blender version support policies.
+## Blender Version Support
 
-Please [Click Here](https://catsblenderplugin.xyz/wiki.html?version=current#what-versions-of-blender-are-currently-supported) to view which versions of blender we support.
+**Current Supported Version:** Blender 5.0+
+
+For detailed version support policies, see the [Version Support Wiki](https://github.com/teamneoneko/Cats-Blender-Plugin-Unofficial-/wiki/Version-Support).
 
 ## Features
 
-Please [Click Here](https://catsblenderplugin.xyz/wiki.html?version=current#what-features-are-available-in-the-quick-access-panel) to view the features of cats.
+Cats provides comprehensive tools for VRChat avatar creation:
+
+- **Import/Export:** Optimized importing for MMD, VRM, FBX, Source Engine, and more
+- **Optimization:** Material combining, texture atlasing, bone merging
+- **Eye Tracking:** SDK3 and Legacy eye tracking setup
+- **Visemes:** Automatic lip sync configuration
+- **Custom Model Creation:** Merge armatures and attach meshes
+- **Translation Tools:** Convert Japanese names to English
+- **And much more!**
+
+For complete feature documentation, visit the [Wiki](https://github.com/teamneoneko/Cats-Blender-Plugin-Unofficial-/wiki).
 
 
 ## Requirements
 
-- Blender 3.6 or above (run as administrator is recommended).
-   - Blender 4.2 is Recommended as this is the latest Stabel release.
-- Anything older then 3.6 is not supported and no longer works.
-- If you have custom Python installed which Blender might use, you need to have Numpy installed
-- Note to Windows Store users: Though Cats seems to work on Windows Store these days no support will be given if there are any issues as the Unofficial cats does not support Windows store due to issues Windows Store versions of Blender have given in the past.
-- Note to Steam users, for some reason the steam version can do some werid errors, If you have issues please download blender from the blender.org website. 
+- **Blender 5.0 or above** (required for Cats 5.0+)
+- Download Blender from [blender.org](https://www.blender.org/download/)
+- If you have custom Python installed which Blender might use, you need to have NumPy installed
 
-#### Additional Plugins Requirements.
-Some features of Cat's need additional plugins to work, you can find them here:
+**Important Notes:**
+- Windows Store Blender: No support provided due to known permission issues
+- We do not support Linux Package manager, snap store or the flatpack version of Blender.
+- Older Blender versions (4.x and below): No longer supported 
 
-- Material Combiner: https://github.com/Grim-es/material-combiner-addon/
-- Immersive Scaler: https://github.com/triazo/immersive_scaler
+### Optional Dependencies
+
+Some features require additional plugins:
+
+- **Material Combiner** (for texture atlasing): https://github.com/Grim-es/material-combiner-addon/
+- **Immersive Scaler** (for scaling tools): https://github.com/triazo/immersive_scaler
+
+See the [Installation Wiki](https://github.com/teamneoneko/Cats-Blender-Plugin-Unofficial-/wiki/Installation#optional-dependencies) for details.
 
 ## Installation
 
-- Please [Click Here](https://catsblenderplugin.xyz/wiki.html?version=current#how-do-i-install-cats-blender-plugin) to see how to install for Blender 4.2+
+1. Download the latest release from [Releases](https://github.com/teamneoneko/Cats-Blender-Plugin-Unofficial-/releases)
+2. In Blender 5.0+, go to **Edit > Preferences > Extensions**
+3. Click **Install from Disk**
+4. Select the downloaded ZIP file (do not extract it)
+5. Enable the extension
+6. Restart Blender
 
-## Help
+For detailed installation instructions, see the [Installation Wiki](https://github.com/teamneoneko/Cats-Blender-Plugin-Unofficial-/wiki/Installation).
 
-If you need help with Cat's you can check the wiki [here](https://catsblenderplugin.xyz/wiki.html#quick-access).
-You can also see the the following video tutorials as well (Please note these videos may become outdated over time).
+## Help & Documentation
+
+For comprehensive documentation, visit the [Cats Wiki](https://github.com/teamneoneko/Cats-Blender-Plugin-Unofficial-/wiki):
+
+- [Quick Access Guide](https://github.com/teamneoneko/Cats-Blender-Plugin-Unofficial-/wiki/Quick-Access)
+- [Optimization Tools](https://github.com/teamneoneko/Cats-Blender-Plugin-Unofficial-/wiki/Optimization)
+- [Eye Tracking Setup](https://github.com/teamneoneko/Cats-Blender-Plugin-Unofficial-/wiki/Eye-Tracking)
+- [Visemes Setup](https://github.com/teamneoneko/Cats-Blender-Plugin-Unofficial-/wiki/Visemes)
+- [Troubleshooting](https://github.com/teamneoneko/Cats-Blender-Plugin-Unofficial-/wiki/Troubleshooting)
+- [FAQ](https://github.com/teamneoneko/Cats-Blender-Plugin-Unofficial-/wiki/FAQ)
+
+**Video Tutorials** (may become outdated over time):
 
 [![VRCHAT Avatar Setup - Blender CATS Plugin](https://i.ytimg.com/vi/2fJMaxbBewg/0.jpg)](https://www.youtube.com/watch?v=2fJMaxbBewg)
 
@@ -57,9 +88,9 @@ You can also see the the following video tutorials as well (Please note these vi
 
 ## Acknowledgements
 
-Maintained by Yusarina.
+Maintained by Team Neoneko (Yusarina).
 
-### Code contributors:
+### Code Contributors:
 - Hotox
 - Shotariya
 - Neitri
@@ -69,9 +100,9 @@ Maintained by Yusarina.
 - 989onan
 - rurre
 
-Cats Blender Plugin was original developed by absolute quantum then maintained by the community, [click here](https://github.com/absolute-quantum/cats-blender-plugin) to see the original project.
+Cats Blender Plugin was originally developed by Absolute Quantum, then maintained by the community. [Click here](https://github.com/absolute-quantum/cats-blender-plugin) to see the original project (now abandoned).
 
-### Cat's Uses the Following Plugins to Enhance it's features:
+### Cats Uses the Following Plugins to Enhance Its Features:
 
  - [MMD Tools](https://github.com/UuuNyaa/blender_mmd_tools)
  - [Immersive Scaler](https://github.com/triazo/immersive_scaler)
