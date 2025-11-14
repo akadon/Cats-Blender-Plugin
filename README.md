@@ -8,7 +8,9 @@
 The unofficial version of Cats Blender Plugin, maintained by Team Neoneko. Cats is a tool designed to shorten steps needed to import and optimize models into VRChat. Compatible models are: MMD, XNALara, Mixamo, Source Engine, Unreal Engine, DAZ/Poser, Blender Rigify, Sims 2, Motion Builder, 3DS Max and potentially more.
 
 With Cats it takes only a few minutes to upload your model into VRChat.
-All the hours long processes of fixing your models are compressed into a few functions!
+All the hours-long processes of fixing your models are compressed into a few functions!
+
+- Join the unoffical Cats Discord!: https://discord.gg/Hx3kb8MVJw
 
 - Join the unofficial Cats Discord: https://discord.neoneko.xyz/
 - Read the Wiki: https://github.com/teamneoneko/Cats-Blender-Plugin-Unofficial-/wiki
@@ -79,12 +81,6 @@ For comprehensive documentation, visit the [Cats Wiki](https://github.com/teamne
 - [Visemes Setup](https://github.com/teamneoneko/Cats-Blender-Plugin-Unofficial-/wiki/Visemes)
 - [Troubleshooting](https://github.com/teamneoneko/Cats-Blender-Plugin-Unofficial-/wiki/Troubleshooting)
 - [FAQ](https://github.com/teamneoneko/Cats-Blender-Plugin-Unofficial-/wiki/FAQ)
-
-**Video Tutorials** (may become outdated over time):
-
-[![VRCHAT Avatar Setup - Blender CATS Plugin](https://i.ytimg.com/vi/2fJMaxbBewg/0.jpg)](https://www.youtube.com/watch?v=2fJMaxbBewg)
-
-[![Full Blender Tutorial on how to create VRChat models](https://i.ytimg.com/vi/2NdPHW4_SOg/0.jpg)](https://www.youtube.com/watch?v=2NdPHW4_SOg)
 
 ## Acknowledgements
 
