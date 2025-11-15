@@ -1,7 +1,7 @@
-# Cats Blender Plugin Unofficial
+# Cats Blender Plugin
 
-### DO NOT ASK FOR HELP IN THE OFFICIAL CATS DISCORD SERVER, PLEASE READ BELOW!
-#### PLEASE DO NOT ASK FOR HELP FOR THIS VERSION OF CATS IN THE OFFICIAL CATS DISCORD. THIS CATS IS NOT THE OFFICIAL VERSION SO SUPPORT MAY NOT BE GIVEN IN THEIR DISCORD SERVER. IF YOU HAVE A BUG OR NEED HELP PLEASE START AN [ISSUE](https://github.com/teamneoneko/Cats-Blender-Plugin-Unofficial-/issues) OR JOIN OUR [DISCORD](https://discord.catsblenderplugin.xyz) SERVER.
+### DO NOT ASK FOR HELP IN THE ORIGINAL CATS DISCORD SERVER, PLEASE READ BELOW!
+#### PLEASE DO NOT ASK FOR HELP FOR THIS VERSION OF CATS IN THE CATS DISCORD. THIS CATS IS NOT THE ORINGAL VERSION SO SUPPORT MAY NOT BE GIVEN IN THEIR DISCORD SERVER. IF YOU HAVE A BUG OR NEED HELP PLEASE START AN [ISSUE](https://github.com/teamneoneko/Cats-Blender-Plugin-Unofficial-/issues) OR JOIN OUR [DISCORD](https://discord.catsblenderplugin.xyz) SERVER.
 
 #### Struggling to find the correct version of Cats for your Blender version? Visit our website: https://catsblenderplugin.xyz/
 
