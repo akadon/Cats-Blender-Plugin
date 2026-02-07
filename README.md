@@ -1,6 +1,6 @@
 # Cats Blender Plugin
 
-### WE HAVE MOVED TO DISROOT! IF YOU WANT TO START A NEW ISSUE, CONTRIBUTE, OR DOWNLOAD NEW RELEASES PLEASE DO SO HERE: https://git.disroot.org/Neoneko/Cats-Blender-Plugin
+### The Neoneko version of Cats is no longer maintained, feel free to fork.
 
 ### DO NOT ASK FOR HELP IN THE ORIGINAL CATS DISCORD SERVER, PLEASE READ BELOW!
 #### PLEASE DO NOT ASK FOR HELP FOR THIS VERSION OF CATS IN THE CATS DISCORD. THIS CATS IS NOT THE ORINGAL VERSION SO SUPPORT MAY NOT BE GIVEN IN THEIR DISCORD SERVER. IF YOU HAVE A BUG OR NEED HELP PLEASE START AN [ISSUE](https://github.com/teamneoneko/Cats-Blender-Plugin-Unofficial-/issues) OR JOIN OUR [DISCORD](https://discord.catsblenderplugin.xyz) SERVER.
