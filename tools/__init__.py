@@ -1,0 +1,48 @@
+# MIT License
+
+if "bpy" not in locals():
+    # print('STARTUP TOOLS!!')
+    import bpy
+    from . import register
+    from . import armature
+    from . import armature_bones
+    from . import armature_manual
+    from . import armature_custom
+    from . import atlas
+    from . import bonemerge
+    from . import common
+    from . import credits
+    from . import eyetracking
+    from . import importer
+    from . import material
+    from . import rootbone
+    from . import settings
+    from . import scale
+    from . import shapekey
+    from . import translate
+    from . import translations
+    from . import viseme
+    from . import iconloader
+else:
+    # print('RELOAD TOOLS!!')
+    import importlib
+    importlib.reload(register)  # Has to be first
+    importlib.reload(armature)
+    importlib.reload(armature_bones)
+    importlib.reload(armature_manual)
+    importlib.reload(armature_custom)
+    importlib.reload(atlas)
+    importlib.reload(bonemerge)
+    importlib.reload(common)
+    importlib.reload(credits)
+    importlib.reload(eyetracking)
+    importlib.reload(importer)
+    importlib.reload(material)
+    importlib.reload(rootbone)
+    importlib.reload(settings)
+    importlib.reload(scale)
+    importlib.reload(shapekey)
+    importlib.reload(translate)
+    importlib.reload(translations)
+    importlib.reload(viseme)
+    importlib.reload(iconloader)

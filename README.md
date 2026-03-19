@@ -1,29 +1,16 @@
 # Cats Blender Plugin
 
-### The Neoneko version of Cats is no longer maintained, feel free to fork.
-
+### The Neoneko version of Cats is no longer maintained,
 ### DO NOT ASK FOR HELP IN THE ORIGINAL CATS DISCORD SERVER, PLEASE READ BELOW!
-#### PLEASE DO NOT ASK FOR HELP FOR THIS VERSION OF CATS IN THE CATS DISCORD. THIS CATS IS NOT THE ORINGAL VERSION SO SUPPORT MAY NOT BE GIVEN IN THEIR DISCORD SERVER. IF YOU HAVE A BUG OR NEED HELP PLEASE START AN [ISSUE](https://github.com/teamneoneko/Cats-Blender-Plugin-Unofficial-/issues) OR JOIN OUR [DISCORD](https://discord.catsblenderplugin.xyz) SERVER.
+#### PLEASE DO NOT ASK FOR HELP FOR THIS VERSION OF CATS IN THE CATS DISCORD. THIS CATS IS NOT THE ORINGAL VERSION SO SUPPORT MAY NOT BE GIVEN IN THEIR DISCORD SERVER.
 
-#### Struggling to find the correct version of Cats for your Blender version? Visit our website: https://catsblenderplugin.xyz/
+### THIS IS A FORK to maintain Version compatiblity with blender , this project is not associated with any of the other project and is just an private effort , feel free to use it however you like.
 
-The unofficial version of Cats Blender Plugin, maintained by Team Neoneko. Cats is a tool designed to shorten steps needed to import and optimize models into VRChat. Compatible models are: MMD, XNALara, Mixamo, Source Engine, Unreal Engine, DAZ/Poser, Blender Rigify, Sims 2, Motion Builder, 3DS Max and potentially more.
+The unofficial version of Cats Blender Plugin, is a tool designed to shorten steps needed to import and optimize models into VRChat. Compatible models are: MMD, XNALara, Mixamo, Source Engine, Unreal Engine, DAZ/Poser, Blender Rigify, Sims 2, Motion Builder, 3DS Max and potentially more.
 
 With Cats it takes only a few minutes to upload your model into VRChat.
 All the hours-long processes of fixing your models are compressed into a few functions!
 
-- Join the unofficial Cats Discord: https://discord.neoneko.xyz/
-- Read the Wiki: https://github.com/teamneoneko/Cats-Blender-Plugin-Unofficial-/wiki
-
-You can find releases [here](https://github.com/teamneoneko/Cats-Blender-Plugin-Unofficial-/releases), ensure you are using the one for your Blender version!
-
-- You can find the development version for Blender 5.0 [here](https://github.com/teamneoneko/Cats-Blender-Plugin-Unofficial-/tree/blender-5x-dev).  
-
-## Blender Version Support
-
-**Current Supported Version:** Blender 5.0+
-
-For detailed version support policies, see the [Version Support Wiki](https://github.com/teamneoneko/Cats-Blender-Plugin-Unofficial-/wiki/Version-Support).
 
 ## Features
 
@@ -86,18 +73,6 @@ For comprehensive documentation, visit the [Cats Wiki](https://github.com/teamne
 
 Maintained by Team Neoneko (Yusarina).
 
-### Code Contributors:
-- Hotox
-- Shotariya
-- Neitri
-- Kiraver
-- Jordo
-- Ruubick
-- 989onan
-- rurre
-
-Cats Blender Plugin was originally developed by Absolute Quantum, then maintained by the community. [Click here](https://github.com/absolute-quantum/cats-blender-plugin) to see the original project (now abandoned).
-
 ### Cats Uses the Following Plugins to Enhance Its Features:
 
  - [MMD Tools](https://github.com/UuuNyaa/blender_mmd_tools)
@@ -107,3 +82,9 @@ Cats Blender Plugin was originally developed by Absolute Quantum, then maintaine
 ## Feedback
 
 Please open an issue if you need to leave feedback.
+
+# Cats Blender Plugin Blender 5.x.
+#### Note Cats is basically on life Support unto Avatar Toolkit is more stable, we will stop pushing updates to Cats once Avatar Toolkit is stable.
+
+The non official version of Cats Blender Plugin which is maintained by Yusarina, Cats is an tool designed to shorten steps needed to import and optimize models into VRChat. Compatible models are: MMD, XNALara, Mixamo, Source Engine, Unreal Engine, DAZ/Poser, Blender Rigify, Sims 2, Motion Builder, 3DS Max and potentially more.
+
