@@ -59,9 +59,13 @@ for data in download_data:
         filename = file_prefix + name + '.blend'
         new_file_path = os.path.join(os.path.dirname(__file__), directory, filename)
         if exists(new_file_path) is False:
-            print('Notice: Downloaded ' + filename + ' because it didn\'t exist')
-            with urllib.request.urlopen(url) as response, open(new_file_path, 'wb') as out_file:
-                shutil.copyfileobj(response, out_file)
+            print('Notice: Downloading ' + filename + '...')
+            try:
+                with urllib.request.urlopen(url) as response, open(new_file_path, 'wb') as out_file:
+                    shutil.copyfileobj(response, out_file)
+            except Exception as e:
+                print('Warning: Could not download ' + filename + ': ' + str(e) + ' (skipping)')
+                continue
 
 start_time = time.time()
 
