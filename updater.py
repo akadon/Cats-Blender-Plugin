@@ -43,11 +43,19 @@ resources_dir = os.path.join(main_dir, "resources")
 ignore_ver_file = os.path.join(resources_dir, "ignore_version.txt")
 no_auto_ver_check_file = os.path.join(resources_dir, "no_auto_ver_check.txt")
 
-# Get package name, important for panel in user preferences
+# Get package name — extensions use module name directly, no bl_info
 package_name = ''
 for mod in addon_utils.modules():
-    if mod.bl_info['name'] == 'Cats Blender Plugin':
+    bl_info = getattr(mod, 'bl_info', None)
+    if bl_info and bl_info.get('name') == 'Cats Blender Plugin':
         package_name = mod.__name__
+        break
+if not package_name:
+    # Blender extension: find by module id from manifest
+    for mod in addon_utils.modules():
+        if getattr(mod, '__name__', '').endswith('cats_blender_plugin'):
+            package_name = mod.__name__
+            break
 
 # Icons for UI
 ICON_URL = 'URL'

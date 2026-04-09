@@ -38,8 +38,6 @@ from sys import intern
 
 from mmd_tools_local import utils
 
-def version_3_6_or_older():
-    return bpy.app.version < (3, 7)
 
 
 def get_objects():
@@ -345,10 +343,6 @@ def set_default_stage():
 
 
 def apply_modifier(mod, as_shapekey=False):
-    if bpy.app.version < (2, 90):
-        bpy.ops.object.modifier_apply(apply_as='SHAPE' if as_shapekey else 'DATA', modifier=mod.name)
-        return
-
     if as_shapekey:
         bpy.ops.object.modifier_apply_as_shapekey(keep_modifier=False, modifier=mod.name)
     else:
@@ -2447,38 +2441,19 @@ def wrap_dynamic_enum_items(items_func, property_name, sort=True, in_place=True,
 
     return wrapped_items_func
     
-if bpy.app.version >= (3, 2):
-    # Passing in context_override as a positional-only argument is deprecated as of Blender 3.2, replaced with
-    # Context.temp_override
-    def op_override(operator, context_override: dict[str, Any], context: Optional[bpy.types.Context] = None,
-                    execution_context: Optional[str] = None,
-                    undo: Optional[bool] = None, **operator_args) -> set[str]:
-        """Call an operator with a context override"""
-        args = []
-        if execution_context is not None:
-            args.append(execution_context)
-        if undo is not None:
-            args.append(undo)
+def op_override(operator, context_override: dict[str, Any], context: Optional[bpy.types.Context] = None,
+                execution_context: Optional[str] = None,
+                undo: Optional[bool] = None, **operator_args) -> set[str]:
+    """Call an operator with a context override"""
+    args = []
+    if execution_context is not None:
+        args.append(execution_context)
+    if undo is not None:
+        args.append(undo)
 
-        if context is None:
-            context = bpy.context
-        with context.temp_override(**context_override):
-            return operator(*args, **operator_args)
-else:
-    def op_override(operator, context_override: Dict[str, Any], context: Optional[bpy.types.Context] = None,
-                    execution_context: Optional[str] = None,
-                    undo: Optional[bool] = None, **operator_args) -> Set[str]:
-        """Call an operator with a context override"""
-        if context is not None:
-            context_base = context.copy()
-            context_base.update(context_override)
-            context_override = context_base
-        args = [context_override]
-        if execution_context is not None:
-            args.append(execution_context)
-        if undo is not None:
-            args.append(undo)
-
+    if context is None:
+        context = bpy.context
+    with context.temp_override(**context_override):
         return operator(*args, **operator_args)
 
 def set_material_shading():
@@ -2491,8 +2466,7 @@ def set_material_shading():
                     space.shading.studio_light = 'forest.exr'
                     space.shading.studiolight_rotate_z = 0.0
                     space.shading.studiolight_background_alpha = 0.0
-                    if bpy.app.version >= (2, 82):
-                        space.shading.render_pass = 'COMBINED'
+                    space.shading.render_pass = 'COMBINED'
 
 def clear_unused_data():
     """

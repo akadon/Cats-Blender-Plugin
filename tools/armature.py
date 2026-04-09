@@ -11,7 +11,6 @@ from . import common as Common
 from . import material as Material
 from . import translate as Translate
 from . import armature_bones as Bones
-from .common import version_3_6_or_older
 from .register import register_wrap
 from .translations import t
 
@@ -723,12 +722,8 @@ class FixArmature(bpy.types.Operator):
         # Remove Bone Groups
         # Replaced in 4.0 with Bone Collections (Armature.collections), which also subsumed Armature.layers. Bone colors
         # are now defined per-bone, Bone.color.palette and PoseBone.color.palette
-        if Common.version_3_6_or_older():
-            for group in armature.pose.bone_groups:
-                armature.pose.bone_groups.remove(group)
-        else:
-            for collection in list(armature.data.collections):
-                armature.data.collections.remove(collection)
+        for collection in list(armature.data.collections):
+            armature.data.collections.remove(collection)
 
         # Re-enter EDIT mode for subsequent operations
         Common.switch('EDIT')
@@ -743,21 +738,13 @@ class FixArmature(bpy.types.Operator):
         # Count steps for loading bar again and reset the layers
         steps += len(armature.data.edit_bones)
         
-        # Handle bone visibility based on Blender version
-        if Common.version_3_6_or_older():
-            # For Blender 3.6 or older, use bone layers
-            for bone in armature.data.edit_bones:
-                bone.layers[0] = True
-        else:
-            # For Blender 4.0+, use bone collections
-            bone_collections = armature.data.collections
-            if bone_collections:
-                # The default collection on new Armatures is called "Bones" and usually has all bones assigned to it.
-                default_collection_name = "Bones"
-                bone_collection = bone_collections.get(default_collection_name)
-                if bone_collection is None:
-                    # The default "Bones" collection does not exist, create it.
-                    bone_collection = bone_collections.new(default_collection_name)
+        # Use bone collections (Blender 4.0+)
+        bone_collections = armature.data.collections
+        if bone_collections:
+            default_collection_name = "Bones"
+            bone_collection = bone_collections.get(default_collection_name)
+            if bone_collection is None:
+                bone_collection = bone_collections.new(default_collection_name)
                 # Ensure the collection is visible.
                 bone_collection.is_visible = True
                 

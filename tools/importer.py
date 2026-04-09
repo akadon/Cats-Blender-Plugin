@@ -2240,24 +2240,14 @@ class Cats_OT_ExportResonite(bpy.types.Operator):
         return False
 
     def execute(self, context: bpy.types.Context):
-        if bpy.app.version[0] < 4:
-            bpy.ops.export_scene.gltf('INVOKE_AREA',
-                export_image_format = 'JPEG',
-                export_jpeg_quality = 75,
-                export_materials = 'EXPORT',
-                export_animations = True,
-                export_animation_mode = 'ACTIONS',
-                export_nla_strips_merged_animation_name = 'Animation',
-                export_nla_strips = True)            
-        else:
-            bpy.ops.export_scene.gltf('INVOKE_AREA',
-                export_image_format = 'WEBP',
-                export_image_quality = 75,
-                export_materials = 'EXPORT',
-                export_animations = True,
-                export_animation_mode = 'ACTIONS',
-                export_nla_strips_merged_animation_name = 'Animation',
-                export_nla_strips = True)
+        bpy.ops.export_scene.gltf('INVOKE_AREA',
+            export_image_format = 'WEBP',
+            export_image_quality = 75,
+            export_materials = 'EXPORT',
+            export_animations = True,
+            export_animation_mode = 'ACTIONS',
+            export_nla_strips_merged_animation_name = 'Animation',
+            export_nla_strips = True)
         return {'FINISHED'}
 
 

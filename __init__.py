@@ -163,16 +163,11 @@ def remove_corrupted_files():
 
 
 def check_unsupported_blender_versions():
-    # Don't allow Blender versions older than 4.5
-    if bpy.app.version < (5, 0):
+    # Require Blender 5.1+
+    if bpy.app.version < (5, 1):
         unregister()
         sys.tracebacklimit = 0
         raise ImportError(t('Main.error.29unsupportedVersion'))
-     
-    # Don't allow 5.0+
-    if bpy.app.version >= (5, 1):
-        sys.tracebacklimit = 0
-        raise ImportError(t('Main.error.40unsupportedVersion'))
 
 def set_cats_version_string():
     version_parts = CATS_VERSION.split(".")
@@ -328,7 +323,7 @@ def unregister():
 
     # Remove shapekey button from shapekey menu
     try:
-        bpy.types.MESH_MT_shape_key_specials.remove(tools.shapekey.addToShapekeyMenu)
+        bpy.types.MESH_MT_shape_key_context_menu.remove(tools.shapekey.addToShapekeyMenu)
     except AttributeError:
         print('shapekey button was not registered')
         pass
